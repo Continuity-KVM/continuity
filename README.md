@@ -21,7 +21,7 @@ LAN-based environments and all communications will be encrypted by default.
 The Continuity host can be extended to multiple monitors, and this will be
 reflected on the client software which would be a part of the Continuity suite.
 
-Continuity will always remain freely available, under the terms of the MIT
+Continuity will always remain freely available, under the terms of the GPLv2
 license.
 
 ## Context
