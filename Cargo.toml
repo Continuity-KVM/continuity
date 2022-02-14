@@ -3,6 +3,7 @@ members = [
     "src/lib/client",
     "src/lib/common",
     "src/lib/host",
+    "src/lib/sharescr",
     "src/bin/usb_driver",
     "src/bin/client_adapter",
     "src/bin/host_daemon"
