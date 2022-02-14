@@ -4,4 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-rusb = "0.9.0"
+continuity_common = { path = "../../lib/common" }
+tokio = { version = "1.16.1", features = ["full"] }
+
+[dependencies.usboip]
+git = "https://github.com/continuity-kvm/usboip"
+rev = "faadfb98bf67f9ee93ea6b81414cd8e34ef6307e"
