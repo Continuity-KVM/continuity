@@ -1,5 +1,5 @@
 [package]
-name = "usb_driver"
+name = "usb_driver_linux"
 version = "0.1.0"
 edition = "2021"
 
@@ -7,6 +7,10 @@ edition = "2021"
 continuity_common = { path = "../../lib/common" }
 tokio = { version = "1.16.1", features = ["full"] }
 
-[dependencies.usboip]
+[dependencies.usboip_driver_linux]
 git = "https://github.com/continuity-kvm/usboip"
-rev = "faadfb98bf67f9ee93ea6b81414cd8e34ef6307e"
+branch = "main"
+
+[dependencies.usboip_client]
+git = "https://github.com/continuity-kvm/usboip"
+branch = "main"
