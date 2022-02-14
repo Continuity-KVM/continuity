@@ -5,13 +5,14 @@ edition = "2021"
 
 [features]
 default = []
-windows = ["dxgcap"]
-x11 = ["x11cap"]
-wayland = ["portal-screencast", "pipewire"]
 # add macos (needs external contribution)
 
 [dependencies]
-dxgcap = { version = "0.2.4", optional = true }
-x11cap = { version = "0.4.1", optional = true }
-portal-screencast = { version = "0.1.0", optional = true }
-pipewire = { version = "0.4.1", optional = true }
+
+[target.'cfg(target_os = "windows")'.dependencies]
+dxgcap = { version = "0.2.4" }
+
+[target.'cfg(target_os = "linux")'.dependencies]
+portal-screencast = { version = "0.1.0" }
+pipewire = { version = "0.4.1" }
+x11cap = { version = "0.4.1" }
