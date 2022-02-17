@@ -33,7 +33,7 @@ are:
 
 - The 'Host' daemon
 - The Client 'adapter'
-- The USB-over-IP driver
+- The USB via IP driver
 
 #### Host daemon
 
@@ -57,10 +57,10 @@ selected by the user, it will begin broadcasting the screen (via
 platform-specific APIs) to the Host daemon over the network, within an
 encrypted UDP stream - the UDP protocol will allow for smooth streaming.
 
-#### USB-over-IP driver
+#### USB via IP driver
 
-The USB-over-IP driver is contained in [this][usboip] repository. There is
-already a USB-over-IP driver, but it doesn't appear to be encrypted, or
+The USB via IP driver is contained in [this][usbvip] repository. There is
+already a USB via IP driver, but it doesn't appear to be encrypted, or
 currently work on newer versions of Windows, according to one bug report.
 
 This driver has yet to be begun, but the protocol will be msgpack, encrypted
@@ -85,5 +85,5 @@ and also hackable - to that end, I am licensing it under the [GPLv2 license]
 [license]
 
 [cage]: https://github.com/Hjdskes/cage
-[usboip]: https://github.com/continuity-kvm/usboip
+[usbvip]: https://github.com/continuity-kvm/usbvip
 [license]: /LICENSE
