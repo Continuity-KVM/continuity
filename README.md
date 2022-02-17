@@ -4,7 +4,7 @@ Continuity -- a true hybrid KVM.
 ## About Continuity
 
 This is a new, experimental hybrid (software & hardware) KVM, written in Rust.
-2
+
 The idea is for a software component, running on low-power hardware, such as a
 Raspberry Pi. I'm also exploring the possibility of a Steam Link being able
 to run the software as well.
