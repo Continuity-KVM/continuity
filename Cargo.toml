@@ -4,9 +4,6 @@ members = [
     "src/lib/common",
     "src/lib/host",
     "src/lib/sharescr",
-    "src/bin/usb_driver_linux",
-    "src/bin/usb_driver_macos",
-    "src/bin/usb_driver_windows",
     "src/bin/client_adapter",
     "src/bin/host_daemon"
 ]
