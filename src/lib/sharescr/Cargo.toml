@@ -10,9 +10,9 @@ default = []
 [dependencies]
 
 [target.'cfg(target_os = "windows")'.dependencies]
-dxgcap = { version = "0.2.4" }
+dxgcap = "0.2.4"
 
 [target.'cfg(target_os = "linux")'.dependencies]
-portal-screencast = { version = "0.1.0" }
-pipewire = { version = "0.4.1" }
-x11cap = { version = "0.4.1" }
+portal-screencast = "0.1.0"
+pipewire = "0.4.1"
+x11cap = "0.4.1"
