@@ -1,5 +1,6 @@
 //! Host daemon, as a part of the Continuity KVM project.
 #![deny(
+    warnings,
     missing_copy_implementations,
     missing_debug_implementations,
     missing_docs,
