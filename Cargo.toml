@@ -1,8 +1,8 @@
 [workspace]
 members = [
-    "src/lib/client",
+    "src/lib/client_adapter_lib",
     "src/lib/common",
-    "src/lib/host",
+    "src/lib/host_daemon_lib",
     "src/bin/client_adapter",
     "src/bin/host_daemon"
 ]
