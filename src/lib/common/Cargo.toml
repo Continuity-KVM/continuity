@@ -4,9 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-crossbeam = "0.8.1"
-parking_lot = "0.12.1"
-bytes = "1.1.0"
+crossbeam = "0.8.4"
+parking_lot = "0.12.3"
+bytes = "1.6.0"
 socket2 = "0.4.4"
 clap = "3.2.12"
 fern = "0.6.1"
